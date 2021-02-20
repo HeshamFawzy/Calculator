@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="input">#4f4f4f</color>
+    <color name="normal_input">#d3d3d1</color>
+    <color name="operation_input">#ff9201</color>
 </resources>
