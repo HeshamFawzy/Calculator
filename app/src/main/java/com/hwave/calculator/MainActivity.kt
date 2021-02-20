@@ -3,6 +3,7 @@ package com.hwave.calculator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.webkit.WebView
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -103,5 +104,10 @@ class MainActivity : AppCompatActivity() {
         }
         tvShowNumber.text = finalNumber.toString()
         isNewOp = true
+    }
+
+    fun buClear(view: View) {
+        isNewOp = true
+        tvShowNumber.text = "0"
     }
 }

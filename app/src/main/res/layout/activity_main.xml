@@ -34,11 +34,12 @@
 
             <Button
                 android:id="@+id/buAc"
-                android:layout_marginRight="1pt"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/normal_input"
+                android:onClick="buClear"
                 android:text="AC"
                 android:textSize="18sp" />
 
